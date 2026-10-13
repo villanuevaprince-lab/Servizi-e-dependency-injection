@@ -1,0 +1,1 @@
+<div class="card-body"><h5>{{studente().nome}}</h5><p>Classe {{studente().classe}}, media <strong [class.text-success]="studente().mediaVoti>=6" [class.text-danger]="studente().mediaVoti<6">{{studente().mediaVoti}}</strong></p>@if(azioni()){<button class="btn btn-sm btn-outline-danger" (click)="rimuovi()">Rimuovi dal registro</button>}</div>
