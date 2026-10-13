@@ -1,1 +1,0 @@
-import { Component, inject } from '@angular/core'; import { RouterLink, RouterOutlet } from '@angular/router'; import { OrdineService } from './services/ordine-service'; @Component({imports:[RouterOutlet,RouterLink],selector:'app-root',templateUrl:'./app.html'}) export class App { readonly ordine=inject(OrdineService); }
